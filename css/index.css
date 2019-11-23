@@ -3,6 +3,10 @@
   flex-flow: row;
   flex-wrap: wrap;
 }
+.button-hover {
+  color: gray;
+  background-color: salmon;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -241,6 +245,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  padding: 10px 5px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  background: #22283B;
+  margin-left: 0;
+  font-size: 2rem;
+}
+.home .walk .walk-text .btn:hover {
+  color: black;
+  background-color: salmon;
 }
 .home .walk .walk-img {
   width: 46%;
